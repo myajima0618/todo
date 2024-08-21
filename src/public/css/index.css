@@ -1,0 +1,159 @@
+
+.todo__alert--success {
+    padding: 10px 30px;
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo__alert--error {
+    padding: 10px 0;
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.todo__alert--error ul {
+    margin: 0;
+}
+
+.todo__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.section__title {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.create-form, .search-form {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.create-form__item, .search-form__item {
+    width: 100%;
+    display: flex;
+}
+
+.create-form__item-input, .search-form__item-input {
+    width: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form__item-select, .search-form__item-select {
+    width: 20%;
+    margin-right: 70px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.create-form__button, .search-form__button {
+    width: 20%;
+}
+
+/* 作成ボタン・検索ボタン */
+.create-form__button-submit, .search-form__button-submit {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.list-table {
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+}
+
+.list-table__inner {
+    width: 100%;
+}
+
+.list-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.list-table__header {
+    padding: 12px;
+    width: 20%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.list-table__header-span {
+    margin-right: 40%;
+    font-size: 24px;
+}
+
+.list-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update-form__item {
+    width: 40%;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.update-form__item-p {
+    text-align: left;
+    font-size: 13px;
+}
+
+
+.update-form__button {
+    width: 50px;
+}
+
+.update-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    background: #00f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
